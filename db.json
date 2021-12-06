@@ -1,0 +1,67 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Punainen viiva",
+      "author": {
+        "givenName": "Ilmari",
+        "familyName": "Kianto"
+      },
+      "description": "Punainen viiva on Ilmari Kiannon vuonna 1909 julkaistu teos. Kirja sijoittuu Suomen ensimmäisten eduskuntavaalien aikaan keväälle 1907 ja kertoo Topi (Tobias Topiaanpoika) ja Riika Romppasen (Retriika Euphrosyyne o.s. Juntunen) köyhän perheen elämästä ja ajatuksista tuona aikana. Topi oli vakuuttunut, että vetämällä punaisen viivan äänestyslipukkeeseen ja antamalla tuen ”solisalirattijärjestelmälle” köyhälistön olot paranisivat."
+    },
+    {
+      "id": 2,
+      "title": "Rautatie",
+      "author": {
+        "givenName": "Juhani",
+        "familyName": "Aho"
+      },
+      "description": "Rautatie on Juhani Ahon vuonna 1884 ilmestynyt esikoisromaani. Sen tyylilajia on nimitetty kansalliseksi pienoisrealismiksi. Teos kuvaa korvessa elävän pariskunnan hiljaiseloa ja heidän yrityksiään kuvitella rautatien olemusta kuulopuheiden perusteella. Rautatie on suomalaisen kirjallisuuden klassikoita, josta 2000-luvun alkuun mennessä oli otettu useita kymmeniä painoksia."
+    },
+    {
+      "title": "Testi",
+      "author": {
+        "givenName": "Teppo",
+        "familyName": "Testaaja"
+      },
+      "description": "joo123",
+      "id": 3
+    },
+    {
+      "title": "Testi",
+      "author": {
+        "givenName": "Teppo",
+        "familyName": "Testaaja"
+      },
+      "description": "joo123",
+      "id": 4
+    },
+    {
+      "title": "Testi",
+      "author": {
+        "givenName": "Teppo",
+        "familyName": "Testaaja"
+      },
+      "description": "joo123",
+      "id": 5
+    },
+    {
+      "title": "Testi",
+      "author": {
+        "givenName": "Teppo",
+        "familyName": "Testaaja"
+      },
+      "description": "joo123",
+      "id": 6
+    },
+    {
+      "title": "Testi",
+      "author": {
+        "givenName": "Teppo",
+        "familyName": "Testaaja"
+      },
+      "description": "joo123",
+      "id": 7
+    }
+  ]
+}
