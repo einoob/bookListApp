@@ -4,6 +4,7 @@ import { Container, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import Page from '../../components/Page';
 
+import BookForm from './components/BookForm';
 import BookList from './components/BookList';
 
 import BookService from '../../services/BookService';
@@ -41,12 +42,15 @@ const LandingPage = ({ data }) => {
     setSubmitting(false);
   };
 
-  console.log('selectedBook >>', selectedBook);
+  React.useEffect(() => {
+    console.count('render');
+  }, []);
+
   return (
     <Page>
       <Container className={classes.contentContainer}>
         <BookList data={bookList} setSelectedBook={setSelectedBook} />
-        {selectedBook.title && <Typography>joo</Typography>}
+        {selectedBook.title && <BookForm book={selectedBook} />}
       </Container>
     </Page>
   );

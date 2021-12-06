@@ -11,6 +11,7 @@ import { makeStyles } from '@mui/styles';
 const useStyles = makeStyles({
   tableContainer: {
     margin: 8,
+    minWidth: '40%',
   },
 });
 
@@ -24,16 +25,14 @@ const BookListTableRow = ({ book, setSelectedBook }) => {
   return (
     <TableRow onClick={handleClick} hover>
       <TableCell>{title}</TableCell>
-      <TableCell>
-        {author.givenName} {author.familyName}
-      </TableCell>
+      <TableCell>{author}</TableCell>
     </TableRow>
   );
 };
 
 const BookList = ({ data, setSelectedBook }) => {
-  console.log('joo');
   const classes = useStyles();
+
   return (
     <TableContainer className={classes.tableContainer} component={Paper}>
       <Table classes={classes.tableContainer}>
